@@ -1,0 +1,8 @@
+/*Clears browser styles*/
+@import url(../vendor/normalize.css);
+
+/*Styles for inter font*/
+@import url(../blocks/inter/inter.css);
+
+/*Styles for the page block*/
+@import url(../blocks/page/page.css);
