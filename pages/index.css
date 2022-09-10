@@ -1,8 +1,19 @@
 /*Clears browser styles*/
 @import url(../vendor/normalize.css);
 
+/*Clears browser styles for list*/
+@import url(../blocks/list/list.css);
+
 /*Styles for inter font*/
-@import url(../blocks/inter/inter.css);
+@import url(../blocks/font-inter/font-inter.css);
 
 /*Styles for the page block*/
 @import url(../blocks/page/page.css);
+
+/*Styles for the header block*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang/header__lang.css);
+@import url(../blocks/header/__lang-item/header__lang-item.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
