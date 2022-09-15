@@ -4,6 +4,7 @@
 
 @media screen and (max-width: 460px) {
   .place__text {
-    margin: 0 16px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }

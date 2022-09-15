@@ -1,10 +1,9 @@
 .intro__container {
   max-width: 690px;
-  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
   .intro__container {
-    max-width: none;
+    max-width: 100%;
   }
 }

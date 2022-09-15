@@ -1,22 +1,22 @@
 .header {
   display: flex;
   justify-content: space-between;
-  max-width: calc(100% - 96px);
   max-height: 52px;
   padding: 28px 48px 0;
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    max-width: calc(100% - 56px);
-    padding: 28px 28px 0;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
 @media screen and (max-width: 460px) {
   .header {
-    max-width: calc(100% - 32px);
     max-height: 42px;
-    padding: 16px 16px 0;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

@@ -2,10 +2,11 @@
   display: grid;
   grid-template-columns: 460px 1fr;
   gap: 48px 40px;
+  padding-bottom: 80px;
 }
 
-.place + .place {
-  padding-top: 80px;
+.place:last-of-type {
+  padding-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -19,10 +20,7 @@
   .place {
     grid-template-columns: 340px 1fr;
     gap: 48px 28px;
-  }
-
-  .place + .place {
-    padding-top: 73px;
+    padding-bottom: 73px;
   }
 }
 
@@ -30,9 +28,6 @@
   .place {
     grid-template-columns: 1fr;
     gap: 32px 0;
-  }
-
-  .place + .place {
-    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
