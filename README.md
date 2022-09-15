@@ -1,6 +1,6 @@
 # Путешествия по России
-> Одностраничный сайт об интересных местах в России
-> [Ссылка на проект](https://students-yandex.github.io/russian-travel/index.html)
+Одностраничный сайт об интересных местах в России  
+[Ссылка на проект](https://students-yandex.github.io/russian-travel/index.html)
 
 ![Иллюстрация к проекту](./images/project-mockup.jpg)
 
