@@ -16,4 +16,4 @@
 1. Кроссбраузерная поддержка 🔜
 
 ## Ссылка на проект
-[Путешествия по России](https://students-yandex.github.io/russian-travel/index.html)
+[Путешествия по России](https://PeachMood.github.io/russian-travel/index.html)
