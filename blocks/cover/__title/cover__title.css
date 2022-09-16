@@ -5,16 +5,22 @@
   line-height: 76px;
   text-align: center;
   max-width: 520px;
-  margin: 0 auto;
   position: relative;
+  margin: 0;
   z-index: 1;
+}
+
+@media screen and (max-width: 695px) {
+  .cover__title {
+    font-size: 52px;
+    line-height: 52px;
+  }
 }
 
 @media screen and (max-width: 460px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
-    /*Smaller than the size specified in the layout to match the appearance */
     max-width: 248px;
   }
 }

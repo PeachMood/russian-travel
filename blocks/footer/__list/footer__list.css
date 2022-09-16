@@ -1,9 +1,17 @@
 .footer__list {
   display: flex;
+  gap: 18px;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 695px) {
   .footer__list {
     flex-direction: column;
+    gap: 24px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .footer__list {
+    gap: 32px;
   }
 }

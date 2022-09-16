@@ -10,10 +10,12 @@
 /*Styles for the page block*/
 @import url(../blocks/page/page.css);
 
+/*Styles for the content block*/
+@import url(../blocks/content/content.css);
+
 /*Styles for the header block*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__lang/header__lang.css);
 @import url(../blocks/header/__lang-item/header__lang-item.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/_underlined/header__lang-link_underlined.css);
@@ -65,6 +67,5 @@
 /*Styles for the footer block*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__list/footer__list.css);
-@import url(../blocks/footer/__list-item/footer__list-item.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);

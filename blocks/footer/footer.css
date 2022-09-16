@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-height: 18px;
   padding: 0 48px 24px;
 }
 
@@ -13,9 +12,8 @@
   }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 695px) {
   .footer {
-    max-height: 100%;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
